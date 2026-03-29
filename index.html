@@ -13,6 +13,20 @@ body {
   background: #fff;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  filter: grayscale(100%);
+}
+
 h1 {
   font-size: 34px;
   letter-spacing: 1px;
@@ -58,8 +72,13 @@ a:hover {
 
 <body>
 
-<h1>LUIGI MANFRIN</h1>
-<div class="subtitle">composer & musicologist</div>
+<div class="header">
+  <img src="luigi.jpg" alt="Luigi Manfrin" class="profile">
+  <div>
+    <h1>LUIGI MANFRIN</h1>
+    <div class="subtitle">composer & musicologist</div>
+  </div>
+</div>
 
 <div class="section">
   <div class="label">statement</div>
