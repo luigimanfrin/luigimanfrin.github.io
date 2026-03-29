@@ -44,11 +44,16 @@ body {
 }
 
 .profile {
-  width: 100px;
-  height: 100px;
+  width: 110px;
+  height: 110px;
   object-fit: cover;
-  object-position: 50% 30%;
+  object-position: 50% 25%;
   filter: grayscale(100%);
+  transition: filter 0.3s ease;
+}
+
+.profile:hover {
+  filter: none;
 }
 
 h1 {
@@ -113,15 +118,25 @@ a:hover {
 
 <div class="section">
   <div class="label">music</div>
+
+  <div class="item">
+    <strong><em>Duo</em></strong> (2003)<br>
+    flute and accordion (about 8')
+  </div>
  
-  <div class="item" style="margin-bottom: 20px;">
-    <strong><em>Backwards Movements</em></strong> (2004)<br>
+  <div class="item" style="margin-top:20px;">
+    <strong><em>Backwards Movements</em></strong> (2004, about 11')<br>
     <em>quintetto con omaggio a Goffredo Petrassi</em><br>
     flute, clarinet, violin, cello, piano
   </div>
 
   <div class="item">
-    <strong><em>(In)forms…(be)coming ab(es)sence</em></strong> (2010/2025)<br>
+    <strong><em>Virtual Madrigal…in machine</em></strong> (2021, about 10')<br>
+    soprano, flute, clarinet, violin, viola, cello
+  </div>
+
+  <div class="item">
+    <strong><em>(In)forms…(be)coming ab(es)sence</em></strong> (2010/2025, about 9')<br>
     viola and synthesized sounds
   </div>
 
