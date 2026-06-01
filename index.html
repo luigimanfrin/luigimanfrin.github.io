@@ -37,7 +37,7 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 80px;
-  max-width: 800px;
+  max-width: 1000px;
   color: #000;
   background: #fff;
 }
@@ -101,6 +101,26 @@ a {
 a:hover {
   text-decoration: underline;
 }
+  .intro-grid {
+  display: flex;
+  gap: 80px;
+  align-items: flex-start;
+  margin-top: 60px;
+}
+
+.statement-column {
+  flex: 1;
+}
+
+.album-column {
+  width: 320px;
+  margin-top: 25px;
+}
+
+.album-cover {
+  width: 100%;
+  display: block;
+}
 </style>
 </head>
 
@@ -120,32 +140,48 @@ a:hover {
     research on the relations between sound, image, temporality and phenomenology.
   </div>
 
-  <div class="section">
-  <div class="label">featured album</div>
+ <div class="intro-grid">
 
-  <div class="item" style="margin-top:20px;">
-    <img src="loopcy-cover.jpg"
-         alt="Loo(p)cy album cover"
-         style="width:100%; max-width:450px;">
+  <div class="statement-column">
+
+    <div class="label">statement</div>
+
+    <div class="item">
+      research on the relations between sound, image, temporality and phenomenology.
+    </div>
+
   </div>
 
-  <div class="item" style="margin-top:20px;">
-    <strong><em>Loo(p)cy</em></strong>
-  </div>
+  <div class="album-column">
 
-  <div class="item">
-    <a href="https://open.spotify.com/intl-it/album/5b6GsGmY9i52wGoQg2ms6r" target="_blank">
-      Spotify
-    </a>
-  </div>
+    <div class="label">featured album</div>
 
-  <div class="item">
-    <a href="https://kairos-music.com/products/recording/0022073kai" target="_blank">
-      Kairos
-    </a>
+    <div class="item" style="margin-top:20px;">
+      <img src="loopcy-cover.jpg"
+           alt="Loo(p)cy album cover"
+           class="album-cover">
+    </div>
+
+    <div class="item" style="margin-top:20px;">
+      <strong><em>Loo(p)cy</em></strong>
+    </div>
+
+    <div class="item">
+      <a href="https://open.spotify.com/intl-it/album/5b6GsGmY9i52wGoQg2ms6r" target="_blank">
+        Spotify
+      </a>
+    </div>
+
+    <div class="item">
+      <a href="https://kairos-music.com/products/recording/0022073kai" target="_blank">
+        Kairos
+      </a>
+    </div>
+
   </div>
 
 </div>
+
 <div class="section">
   <div class="label">selected collaborations</div>
 
